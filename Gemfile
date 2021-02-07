@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.7.0'
 
 gem 'rails', '~> 4.2.3'
 
@@ -15,7 +15,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'lazy_high_charts', git: 'https://github.com/michelson/lazy_high_charts', branch: 'master'
 gem 'levenshtein-ffi'
-gem 'mysql2', '~> 0.3.18'
+gem 'mysql2', '~> 0.4.10'
 gem 'net-ldap'
 gem 'nokogiri'
 gem 'octokit', '~> 4.0'
@@ -30,6 +30,7 @@ gem 'socksify', git: 'https://github.com/quotaguard/socksify-ruby', branch: 'mas
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'will_paginate', '~> 3.1.0'
+gem 'bigdecimal', '1.4.2'
 
 group :development, :test do
   gem 'byebug'
